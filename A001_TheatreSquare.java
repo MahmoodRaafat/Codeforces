@@ -1,4 +1,3 @@
-package A;
 /*
 A - Theatre Square
 
@@ -16,7 +15,7 @@ Write the needed number of flagstones.
 
 ---------------------------------------------------------------------------------------------------------------------------------*/
 import java.util.Scanner;
-public class A001_TheatreSquare {
+public class A0001_TheatreSquare {
 	public static void main(String[] args) {
 		
 		Scanner sc = new Scanner(System.in);
