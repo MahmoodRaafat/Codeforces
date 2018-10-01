@@ -1,4 +1,5 @@
 /*
+
 A - Theatre Square
 
 Theatre Square in the capital city of Berland has a rectangular shape with the size n x m meters. On the occasion of the city's 
