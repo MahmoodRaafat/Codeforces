@@ -1,4 +1,3 @@
-package A;
 /*
 
 A - Die Roll
@@ -23,7 +22,8 @@ Output the required probability in the form of irreducible fraction in format <<
 B is the denominator. If the required probability equals to zero, output <<0/1>>. If the required probability equals 
 to 1, output <<1/1>>. 
 
-*/
+------------------------------------------------------------------------------------------------------------------*/
+
 import java.util.Scanner;
 public class A009_DieRoll { 
 	public static void main(String[] args) {
