@@ -1,4 +1,3 @@
-package A;
 /*
 
 A - Power Consumption Calculation
@@ -26,7 +25,7 @@ Output the answer to the problem.
 -----------------------------------------------------------------------------------------------*/
 
 import java.util.Scanner;
-public class A010_PowerConsumptionCalc {
+public class A0010_PowerConsumptionCalc {
 	public static void main(String[] args) {
 		
 		Scanner sc = new Scanner(System.in);
@@ -62,6 +61,7 @@ public class A010_PowerConsumptionCalc {
 				totPower += a*P1;
 				continue;
 			}
+			
 			// if screensavor is reached
 			totPower += T1*P1;
 			a -= T1; // total time on screensavor (or sleep mode)
@@ -70,6 +70,7 @@ public class A010_PowerConsumptionCalc {
 				totPower += a*P2;
 				continue;
 			}
+			
 			// if sleep mode is reached
 			totPower += T2*P2;
 			a -= T2;
@@ -78,7 +79,8 @@ public class A010_PowerConsumptionCalc {
 			totPower += a*P3;
 		}
 		
-		totPower += P1*(arr[n-1][1] - arr[n-1][0]); // add power used during final usage
+		// add power used during final usage
+		totPower += P1*(arr[n-1][1] - arr[n-1][0]);
 		System.out.println(totPower);
 	}
 }
