@@ -1,15 +1,14 @@
-package A;
 /*
 
 A - IQ Test
 
 Bob is preparing to pass IQ test. The most frequent task in this test is to find out which 
 one of the given n numbers differs from the others. Bob observed that one number usually differs 
-from the others in evenness. Help Bob — to check his answers, he needs a program that among the 
+from the others in evenness. Help Bob â€” to check his answers, he needs a program that among the 
 given n numbers finds one that is different in evenness.
 
 Input
-The first line contains integer n (3 <= n <= 100) — amount of numbers in the task. The second line 
+The first line contains integer n (3 <= n <= 100) â€” amount of numbers in the task. The second line 
 contains n space-separated natural numbers, not exceeding 100. It is guaranteed, that exactly one 
 of these numbers differs from the others in evenness.
 
@@ -20,7 +19,7 @@ the input order.
 -----------------------------------------------------------------------------------------------*/
 
 import java.util.Scanner;
-public class A025_IQTest {
+public class A0025_IQTest {
 	public static void main(String[] args) {
 		
 		Scanner sc = new Scanner(System.in);
