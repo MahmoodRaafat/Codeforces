@@ -1,4 +1,3 @@
-package A;
 /*
 
 Way Too Long Words
@@ -10,7 +9,7 @@ All too long words should be replaced with a special abbreviation.
 This abbreviation is made like this: we write down the first and the last letter 
 of a word and between them we write the number of letters between the first and the 
 last letters. That number is in decimal system and doesn't contain any leading zeroes.
-Thus, "localization" will be spelt as "l10n", and "internationalization» will be spelt 
+Thus, "localization" will be spelt as "l10n", and "internationalizationÂ» will be spelt 
 as "i18n".
 You are suggested to automatize the process of changing the words with abbreviations. 
 At that all too long words should be replaced by the abbreviation and the words that 
@@ -28,7 +27,7 @@ from the input data.
 -------------------------------------------------------------------------------------*/
 
 import java.util.Scanner;
-public class A071_WayTooLongWords {
+public class A0071_WayTooLongWords {
 	public static void main(String[] args) {
 		
 		Scanner sc = new Scanner(System.in);
