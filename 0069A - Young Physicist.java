@@ -1,4 +1,3 @@
-package A;
 /*
 
 A - Young Physicist
@@ -10,7 +9,7 @@ complete his physics tasks. Next day the teacher got very angry at Vasya and dec
 to teach him a lesson. He gave the lazy student a seemingly easy task: You are given 
 an idle body in space and the forces that affect it. The body can be considered as a 
 material point with coordinates (0; 0; 0). Vasya had only to answer whether it is in 
-equilibrium. "Piece of cake" — thought Vasya, we need only to check if the sum of all 
+equilibrium. "Piece of cake" â€” thought Vasya, we need only to check if the sum of all 
 vectors is equal to 0. So, Vasya began to solve the problem. But later it turned out 
 that there can be lots and lots of these forces, and Vasya can not cope without your 
 help. Help him. Write a program that determines whether a body is idle or is moving 
@@ -27,7 +26,7 @@ Print the word "YES" if the body is in equilibrium, or the word "NO" if it is no
 --------------------------------------------------------------------------------------*/
 
 import java.util.Scanner;
-public class A069_YoungPhysicist {
+public class A0069_YoungPhysicist {
 	public static void main(String[] args) {
 		
 		Scanner sc = new Scanner(System.in);
