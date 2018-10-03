@@ -1,7 +1,6 @@
-package A;
 /*
 
-A - Ultra Fast Math
+A - Ultra Fast Mathematician
 
 Shapur was an extremely gifted student. He was great at everything including Combinatorics, 
 Algebra, Number Theory, Geometry, Calculus, etc. He was not only smart but extraordinarily 
@@ -26,12 +25,12 @@ that the numbers are made from 0 and 1 only and that their length is same. The n
 start with 0. The length of each number doesn't exceed 100.
 
 Output
-Write one line — the corresponding answer. Do not omit the leading 0s.
+Write one line â€” the corresponding answer. Do not omit the leading 0s.
 
 -------------------------------------------------------------------------------------------*/
 
 import java.util.Scanner;
-public class A061_UltraFastMath {
+public class A0061_UltraFastMathematician {
 	public static void main(String[] args) {
 		
 		Scanner sc = new Scanner(System.in);
