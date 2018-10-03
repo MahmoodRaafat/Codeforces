@@ -1,4 +1,3 @@
-package A;
 /*
 
 A - Chat Room
@@ -20,8 +19,8 @@ If Vasya managed to say hello, print "YES", otherwise print "NO".
 
 -------------------------------------------------------------------------------------------*/
 
-import java.util.*;
-public class A058_ChatRoom {
+import java.util.Scanner;
+public class A0058_ChatRoom {
 	public static void main(String[] args) {
 		
 		Scanner sc = new Scanner(System.in);
