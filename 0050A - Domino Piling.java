@@ -1,4 +1,3 @@
-package A;
 /*
 
 A - Domino Piling
@@ -21,7 +20,7 @@ Output one number - the maximal number of dominoes, which can be placed.
 -----------------------------------------------------------------------------------------------*/
 
 import java.util.*;
-public class A050_DominoPiling {
+public class A0050_DominoPiling {
 	public static void main(String[] args) {
 		
 		Scanner sc = new Scanner (System.in);
