@@ -1,4 +1,3 @@
-package A;
 /*
 
 A - Football
@@ -22,7 +21,7 @@ Print "YES" if the situation is dangerous. Otherwise, print "NO".
 ----------------------------------------------------------------------------------------------*/
 
 import java.util.Scanner;
-public class A096_Football {
+public class A0096_Football {
 	public static void main(String[] args) {
 		
 		Scanner sc = new Scanner(System.in);
