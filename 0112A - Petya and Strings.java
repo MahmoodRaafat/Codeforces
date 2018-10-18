@@ -19,7 +19,7 @@ is less than the first one, print "1". If the strings are equal, print "0". Note
 that the letters' case is not taken into consideration when the strings are compared.
 
 --------------------------------------------------------------------------------------*/
-
+ 
 import java.util.Scanner;
 public class A0112_PetyaAndStrings {
 	public static void main(String[] args) {
