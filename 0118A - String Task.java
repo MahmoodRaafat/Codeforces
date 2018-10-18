@@ -1,4 +1,3 @@
-package A;
 /*
 
 A - String Task
@@ -24,7 +23,7 @@ Print the resulting string. It is guaranteed that this string is not empty.
 --------------------------------------------------------------------------------------*/
 
 import java.util.Scanner;
-public class A118_StringTask {
+public class A0118_StringTask {
 	public static void main(String[] args) {
 		
 		Scanner sc = new Scanner(System.in);
