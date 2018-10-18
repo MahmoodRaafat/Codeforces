@@ -1,4 +1,3 @@
-package A;
 /*
 
 A - Petya and Strings
@@ -22,7 +21,7 @@ that the letters' case is not taken into consideration when the strings are comp
 --------------------------------------------------------------------------------------*/
 
 import java.util.Scanner;
-public class A112_PetyaAndStrings {
+public class A0112_PetyaAndStrings {
 	public static void main(String[] args) {
 		
 		Scanner sc = new Scanner(System.in);
