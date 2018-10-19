@@ -28,7 +28,7 @@ Print the name of the winner.
 ------------------------------------------------------------------------------------*/
 
 import java.util.*;
-public class A002_Winner {
+public class A0002_Winner {
 	public static void main(String[] args) {
 		
 		Scanner sc = new Scanner(System.in);
