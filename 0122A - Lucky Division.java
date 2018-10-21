@@ -9,7 +9,7 @@ Petya calls a number almost lucky if it could be evenly divided by some lucky nu
 him find out if the given number n is almost lucky.
 
 Input
-The single line contains an integer n (1 <= n <= 1000) — the number that needs to be checked.
+The single line contains an integer n (1 <= n <= 1000) â€” the number that needs to be checked.
 
 Output
 In the only line print "YES" (without the quotes), if number n is almost lucky. Otherwise, 
@@ -18,7 +18,7 @@ print "NO" (without the quotes).
 ---------------------------------------------------------------------------------------------*/
 
 import java.util.Scanner;
-public class A122_LuckyDivision {
+public class A0122_LuckyDivision {
 	public static void main(String[] args) {
 		
 		Scanner sc = new Scanner(System.in);
