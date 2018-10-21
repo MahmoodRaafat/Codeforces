@@ -1,4 +1,5 @@
 /*
+
 A - Epic Game
 
 Simon and Antisimon play a game. Initially each player receives one fixed positive 
@@ -12,9 +13,8 @@ left than one needs to take).
 Your task is to determine by the given a, b and n who wins the game.
 
 Input
-
 The only string contains space-separated integers a, b and n (1 <= a, b, n <= 100) 
-— the fixed numbers Simon and Antisimon have received correspondingly and the 
+â€” the fixed numbers Simon and Antisimon have received correspondingly and the 
 initial number of stones in the pile.
 
 Output
@@ -23,7 +23,7 @@ If Simon wins, print "0" (without the quotes), otherwise print "1" (without quot
 -----------------------------------------------------------------------------------*/
 
 import java.util.Scanner;
-public class A119_EpicGame {
+public class A0119_EpicGame {
 	public static void main(String[] args) {
 		
 		Scanner sc = new Scanner(System.in);
@@ -31,7 +31,7 @@ public class A119_EpicGame {
 		boolean simon = true;
 		sc.close();
 		
-		while(n > 0) {
+		while (n > 0) {
 			// find gcd
 			int gcd = gcd(a, b, n, simon);
 			if (gcd == -1)
