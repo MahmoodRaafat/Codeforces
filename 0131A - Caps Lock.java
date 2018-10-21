@@ -22,7 +22,7 @@ Print the result of the given word's processing.
 -----------------------------------------------------------------------------------------------*/
 
 import java.util.Scanner;
-public class A131_CapsLock {
+public class A0131_CapsLock {
 	public static void main(String[] args) {
 		
 		Scanner sc = new Scanner(System.in);
