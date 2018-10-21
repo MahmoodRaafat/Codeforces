@@ -27,7 +27,7 @@ registration, or a prompt with a new name, if the requested name is already take
 --------------------------------------------------------------------------------------*/
 
 import java.util.*;
-public class C004_RegistrationSystem {
+public class C0004_RegistrationSystem {
 	public static void main(String[] args) {
 
 		Scanner sc = new Scanner(System.in);
