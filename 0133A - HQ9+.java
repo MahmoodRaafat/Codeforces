@@ -1,4 +1,3 @@
-package A;
 /*
 
 A - HQ9+
