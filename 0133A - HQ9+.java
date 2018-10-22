@@ -22,7 +22,7 @@ Output "YES", if executing the program will produce any output, and "NO" otherwi
 --------------------------------------------------------------------------------------------------*/
 
 import java.util.Scanner;
-public class A133_HQ9Plus {
+public class A0133_HQ9Plus {
 	public static void main(String[] args) {
 		
 		Scanner sc = new Scanner(System.in);
