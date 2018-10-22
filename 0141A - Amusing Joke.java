@@ -29,7 +29,7 @@ names of the "New Year and Christmas Men". Otherwise, print "NO" without the quo
 ----------------------------------------------------------------------------------------*/
 
 import java.util.Scanner;
-public class A141_AmusingJoke {
+public class A0141_AmusingJoke {
 	static String pile;
 	public static void main(String[] args) {
 
