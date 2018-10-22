@@ -1,4 +1,3 @@
-package A;
 /*
 
 A - Presents
@@ -16,8 +15,8 @@ friends received exactly one gift.
 Now Petya wants to know for each friend i the number of a friend who has given him a gift.
 
 Input
-The first line contains one integer n (1 <= n <= 100) — the quantity of friends Petya invited 
-to the party. The second line contains n space-separated integers: the i-th number is pi — 
+The first line contains one integer n (1 <= n <= 100) â€” the quantity of friends Petya invited 
+to the party. The second line contains n space-separated integers: the i-th number is pi â€” 
 the number of a friend who gave a gift to friend number i. It is guaranteed that each friend 
 received exactly one gift. It is possible that some friends do not share Petya's ideas of 
 giving gifts to somebody else. Those friends gave the gifts to themselves.
@@ -29,7 +28,7 @@ gave a gift to friend number i.
 ------------------------------------------------------------------------------------------*/
 
 import java.util.*;
-public class A136_Presents {
+public class A0136_Presents {
 	static Scanner sc = new Scanner(System.in);
 	public static void main(String[] args) {
 		
