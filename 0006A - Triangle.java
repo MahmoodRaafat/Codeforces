@@ -13,7 +13,7 @@ degenerate triangle even. As Johnny is very lazy, he does not want to consider s
 you to help him.
 
 Input
-The first line of the input contains four space-separated positive integer numbers not exceeding 100 — lengths of 
+The first line of the input contains four space-separated positive integer numbers not exceeding 100 â€” lengths of 
 the sticks.
 
 Output
