@@ -28,7 +28,7 @@ with such a name is already in the chat, there will be no 'Remove' command if th
 such a name in the chat etc. All names are case-sensitive.
 
 Output
-Print a single number — answer to the problem.
+Print a single number â€” answer to the problem.
 
 -------------------------------------------------------------------------------------------------------*/
 
