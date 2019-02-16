@@ -1,5 +1,7 @@
 /*
 
+C - Nice Garland
+
 You have a garland consisting of n lamps. Each lamp is colored red, green or blue. The color of the 
 i-th lamp is si ('R', 'G' and 'B' — colors of lamps in the garland). You have to recolor some lamps 
 in this garland (recoloring a lamp means changing its initial color to another) in such a way that 
