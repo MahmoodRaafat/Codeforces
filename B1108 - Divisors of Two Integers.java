@@ -12,12 +12,12 @@ different order). It is guaranteed that the answer exists, i.e. the given list o
 some positive integers x and y.
 
 Input
-The first line contains one integer n (2<=n<=128) — the number of divisors of x and y. The second line of 
+The first line contains one integer n (2<=n<=128) â€” the number of divisors of x and y. The second line of 
 the input contains n integers d1,d2,...,dn (1<=di<=104), where di is either divisor of x or divisor of y. 
 If a number is divisor of both numbers x and y then there are two copies of this number in the list.
 
 Output
-Print two positive integer numbers x and y — such numbers that merged list of their divisors is the 
+Print two positive integer numbers x and y â€” such numbers that merged list of their divisors is the 
 permutation of the given list of integers. It is guaranteed that the answer exists.
 
 ----------------------------------------------------------------------------------------------------------*/
