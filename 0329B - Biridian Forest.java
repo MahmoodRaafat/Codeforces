@@ -19,7 +19,7 @@ If you and t (t > 0) mikemon breeders are located on the same cell, exactly t mi
 you will be battling each of those t breeders once). After the battle, all of those t breeders will leave the forest to heal 
 their respective mikemons. Note that the moment you leave the forest, no more mikemon battles can ensue, even if another 
 mikemon breeder move to the exit cell immediately after that. Also note that a battle only happens between you and another 
-breeders — there will be no battle between two other breeders (there may be multiple breeders coexisting in a single cell). 
+breeders â€” there will be no battle between two other breeders (there may be multiple breeders coexisting in a single cell). 
 You would like to leave the forest. In order to do so, you have to make a sequence of moves, ending with a move of the final 
 type. Before you make any move, however, you post this sequence on your personal virtual idol Blog. Then, you will follow 
 this sequence of moves faithfully.  Because you post the sequence in your Blog, the other breeders will all know your exact 
@@ -86,7 +86,8 @@ public class B0329_BiridianForest {
 		int result = 0;
 		for (int i=0; i<rows; i++) {
 			for (int j=0; j<cols; j++) {
-				if (!forest[i][j].equals("T") && !forest[i][j].equals("S") && !forest[i][j].equals("0") && !forest[i][j].equals("E")) {
+				if (!forest[i][j].equals("T") && !forest[i][j].equals("S") && 
+				    !forest[i][j].equals("0") && !forest[i][j].equals("E")) {
 					if (dists[i][j] <= dists[startI][startJ] && dists[i][j]>0) {
 						result += Integer.parseInt(forest[i][j]);
 					}
