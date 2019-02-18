@@ -12,12 +12,12 @@ but he doesn't know if it's right. Your task is to solve all n tasks from Petya'
 
 Input
 The first line contains a single integer n
-(1 <= n <= 103) — the number of tasks in Petya's homework. The next n lines contain two integers 
-ki (1 <= ki <= 1012) and xi (1 <= xi <= 9) — i-th Petya's task in which you need to find a ki-th 
+(1 <= n <= 103) â€” the number of tasks in Petya's homework. The next n lines contain two integers 
+ki (1 <= ki <= 1012) and xi (1 <= xi <= 9) â€” i-th Petya's task in which you need to find a ki-th 
 positive number, the digital root of which is xi.
 
 Output
-Output n lines, i-th line should contain a single integer — the answer to the i-th problem.
+Output n lines, i-th line should contain a single integer â€” the answer to the i-th problem.
 
 ------------------------------------------------------------------------------------------------------*/
 
