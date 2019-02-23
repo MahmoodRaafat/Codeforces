@@ -16,11 +16,11 @@ exactly 1 liter of fuel for 1 kilometer of the way. At the beginning of the jour
  the trip if he can buy fuel in any city he wants. Help him to figure it out!
  
 Input
-The first line contains two integers n and v (2 <= n <= 100, 1 <= v <= 100) — the number of cities in 
+The first line contains two integers n and v (2 <= n <= 100, 1 <= v <= 100) â€” the number of cities in 
 the country and the capacity of the tank.
 
 Output
-Print one integer — the minimum amount of money that is needed to finish the trip.
+Print one integer â€” the minimum amount of money that is needed to finish the trip.
 
 --------------------------------------------------------------------------------------------------------*/
 
