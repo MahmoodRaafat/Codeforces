@@ -13,14 +13,14 @@ either empty, or contains a part of a desk. An uppercase Latin letter stands for
 period ('.') stands for an empty cell.
 
 Input
-The first line contains two separated by a space integer numbers n, m (1 <= n, m <= 100) — the length 
-and the width of the office-room, and c character — the President's desk colour. The following n lines 
-contain m characters each — the office-room description. It is guaranteed that the colour of each desk 
+The first line contains two separated by a space integer numbers n, m (1 <= n, m <= 100) â€” the length 
+and the width of the office-room, and c character â€” the President's desk colour. The following n lines 
+contain m characters each â€” the office-room description. It is guaranteed that the colour of each desk 
 is unique, and each desk represents a continuous subrectangle of the given matrix. All colours are 
 marked by uppercase Latin letters.
 
 Output
-Print the only number — the amount of President's deputies.
+Print the only number â€” the amount of President's deputies.
 
 ------------------------------------------------------------------------------------------------------*/
 
