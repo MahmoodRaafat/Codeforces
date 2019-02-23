@@ -3,7 +3,7 @@
 B - Center Alignment
 
 Almost every text editor has a built-in function of center text alignment. The developers of the 
-popular in Berland text editor «Textpad» decided to introduce this functionality into the fourth 
+popular in Berland text editor Â«TextpadÂ» decided to introduce this functionality into the fourth 
 release of the product. You are to implement the alignment in the shortest possible time. Good luck!
 Input
 
@@ -12,7 +12,7 @@ spaces. The lines cannot start or end with a space. It is guaranteed that at lea
 has positive length. The length of each line and the total amount of the lines do not exceed 1000.
 
 Output
-Format the given text, aligning it center. Frame the whole text with characters «*» of the minimum 
+Format the given text, aligning it center. Frame the whole text with characters Â«*Â» of the minimum 
 size. If a line cannot be aligned perfectly (for example, the line has even length, while the width 
 of the block is uneven), you should place such lines rounding down the distance to the left or to the 
 right edge and bringing them closer left or right alternatively (you should start with bringing left).
@@ -75,13 +75,13 @@ public class B0005_CenterAlignment {
 	}
 	
 	public static void printLine(int fs, int bs, String str) {
-		String firstSpace = "", secondSpace = "";
+		String frontSpace = "", backSpace = "";
 		
 		for (int i=0; i<fs; i++)
-			firstSpace += " ";
+			frontSpace += " ";
 		for (int i=0; i<bs; i++)
-			secondSpace += " ";
+			backSpace += " ";
 		
-		System.out.println("*" + firstSpace + str + secondSpace + "*");
+		System.out.println("*" + frontSpace + str + backSpace + "*");
 	}
 }
