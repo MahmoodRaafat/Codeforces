@@ -33,3 +33,4 @@ public class A0996_HitTheLottery {
 		System.out.println(res);
 	}
 }
+
