@@ -20,19 +20,19 @@ Kalevitch hopes that such chessboards will gain popularity, and he will be
 commissioned to paint chessboards, which will help him ensure a comfortable old age. 
 The clients will inform him what chessboard they want to have, and the painter will 
 paint a white chessboard meeting the client's requirements.
-It goes without saying that in such business one should economize on everything —
+It goes without saying that in such business one should economize on everything â€”
 for each commission he wants to know the minimum amount of strokes that he has to 
 paint to fulfill the client's needs. You are asked to help Kalevitch with this task.
 
 Input
 The input file contains 8 lines, each of the lines contains 8 characters. The given 
 matrix describes the client's requirements, W character stands for a white square, 
-and B character — for a square painted black. It is guaranteed that client's 
+and B character â€” for a square painted black. It is guaranteed that client's 
 requirments can be fulfilled with a sequence of allowed strokes (vertical/column 
 or horizontal/row).
 
 Output
-Output the only number — the minimum amount of rows and columns that Kalevitch has 
+Output the only number â€” the minimum amount of rows and columns that Kalevitch has 
 to paint on the white chessboard to meet the client's requirements.
 
 ------------------------------------------------------------------------------------*/
