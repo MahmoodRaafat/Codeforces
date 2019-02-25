@@ -2,11 +2,11 @@
 
 C - Connect
 
-Alice lives on a flat planet that can be modeled as a square grid of size n×n, with rows and 
+Alice lives on a flat planet that can be modeled as a square grid of size nÃ—n, with rows and 
 columns enumerated from 1 to n. We represent the cell at the intersection of row r and column 
 c with ordered pair (r, c). Each cell in the grid is either land or water. Alice resides in 
 land cell (r1, c1). She wishes to travel to land cell (r2,c2). At any moment, she may move to 
-one of the cells adjacent to where she is—in one of the four directions (i.e., up, down, left, 
+one of the cells adjacent to where she isâ€”in one of the four directions (i.e., up, down, left, 
 or right). Unfortunately, Alice cannot swim, and there is no viable transportation means other 
 than by foot (i.e., she can walk only on land). As a result, Alice's trip may be impossible. 
 To help Alice, you plan to create at most one tunnel between some two land cells. The tunnel 
@@ -17,10 +17,10 @@ most one tunnel so that Alice could travel from (r1, c1) to (r2,c2). If no tunne
 created, the cost is 0.
 
 Input
-The first line contains one integer n (1 <= n <= 50) — the width of the square grid. The second 
-line contains two space-separated integers r1 and c1 (1 <= r1, c1 <= n) — denoting the cell 
+The first line contains one integer n (1 <= n <= 50) â€” the width of the square grid. The second 
+line contains two space-separated integers r1 and c1 (1 <= r1, c1 <= n) â€” denoting the cell 
 where Alice resides. The third line contains two space-separated integers r2 and c2 (1 <= r2, 
-c2 <= n) — denoting the cell to which Alice wishes to travel. Each of the following n lines 
+c2 <= n) â€” denoting the cell to which Alice wishes to travel. Each of the following n lines 
 contains a string of n characters. The j-th character of the i-th such line (1 <= i, j <= n) is 
 0 if (i, j) is land or 1 if (i, j) is water.
 
