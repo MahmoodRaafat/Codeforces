@@ -1,5 +1,3 @@
-package C;
-
 /*
 
 C - Fifa and Fafa
@@ -30,7 +28,7 @@ the access point range.
 ------------------------------------------------------------------------------------------------*/
 
 import java.util.*;
-public class C935_FifaAndFafa {
+public class C0935_FifaAndFafa {
 	public static void main(String[] args) {
 		
 		Scanner sc = new Scanner(System.in);
@@ -54,10 +52,10 @@ public class C935_FifaAndFafa {
 			return "" + (flatX+(flatRadius/2)) + " " + flatY + " " + flatRadius/2;
 		
 		
-		double accessPointX = 0, accessPointY = 0, signalRadius = 0;
-		double theta = findTheta(flatX, flatY, laptopX, laptopY);
-		double distance = (flatRadius-dist)/2;
-		double Xdist = distance*Math.cos(theta), Ydist = distance*Math.sin(theta);
+		double accessPointX = 0, accessPointY = 0, signalRadius = 0,
+		   theta = findTheta(flatX, flatY, laptopX, laptopY),
+		   distance = (flatRadius-dist)/2,
+		   Xdist = distance*Math.cos(theta), Ydist = distance*Math.sin(theta);
 		
 		accessPointX = flatX + Xdist;
 		accessPointY = flatY + Ydist;
