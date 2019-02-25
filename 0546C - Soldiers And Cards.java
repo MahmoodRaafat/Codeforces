@@ -1,5 +1,3 @@
-package C;
-
 /*
 
 C - Soldiers and Cards
@@ -31,7 +29,7 @@ game won't end and will continue forever output -1.
 ----------------------------------------------------------------------------------------------*/
 
 import java.util.*;
-public class C546_SoldiersAndCards {
+public class C0546_SoldiersAndCards {
 	public static void main(String[] args) {
 		
 		Scanner sc = new Scanner(System.in);
