@@ -1,5 +1,3 @@
-package D;
-
 /*
 
 D - Queue
@@ -17,12 +15,12 @@ The first line contains integer n (1 <= n <= 10^5). The next line contains n int
 (1 <= ti <= 10^9), separated by spaces.
 
 Output
-Print a single number — the maximum number of not disappointed people in the queue.
+Print a single number â€” the maximum number of not disappointed people in the queue.
 
 ---------------------------------------------------------------------------------------------*/
 
 import java.util.*;
-public class D545_Queue {
+public class D0545_Queue {
 	public static void main(String[] args) {
 
 		Scanner sc = new Scanner(System.in);
