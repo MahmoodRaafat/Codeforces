@@ -2,7 +2,7 @@
 
 A - Be Positive
 
-You are given an array of n integers: a1,a2,…,an. Your task is to find some 
+You are given an array of n integers: a1,a2,â€¦,an. Your task is to find some 
 non-zero integer d (-10^3 <= d <= 10^3) such that, after each number in the 
 array is divided by d, the number of positive numbers that are presented in the 
 array is greater than or equal to half of the array size (i.e., at least |n2|). 
@@ -13,9 +13,9 @@ a single integer 0. Recall that |x| represents the smallest integer that is not
 less than x and that zero (0) is neither positive nor negative.
 
 Input
-The first line contains one integer n (1 <= n <= 100) — the number of elements 
-in the array. The second line contains n space-separated integers a1, a2, ..., an 
-(-10^3 <= ai <= 10^3).
+The first line contains one integer n (1 <= n <= 100) â€” the number of elements 
+in the array. The second line contains n space-separated integers a1, a2, ..., 
+an (-10^3 <= ai <= 10^3).
 
 Output
 Print one integer d (-10^3 <= d <= 10^3 and d!=0) that satisfies the given 
