@@ -1,4 +1,3 @@
-package A;
 /*
 
 A - Arrival of the General
@@ -31,7 +30,7 @@ the general will like.
 ----------------------------------------------------------------------------------------------*/
 
 import java.util.*;
-public class A144_ArrivalOfTheGeneral {
+public class A0144_ArrivalOfTheGeneral {
 	public static void main(String[] args) {
 		
 		Scanner sc = new Scanner(System.in);
