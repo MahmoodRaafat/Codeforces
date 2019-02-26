@@ -1,4 +1,3 @@
-package D;
 /*
 
 D - Divide By Three, Muliply By Two
@@ -22,13 +21,13 @@ elements in the sequence. The second line of the input contains n integer number
 on the board.
 
 Output
-Print n integer numbers — rearranged (reordered) input sequence that can be the sequence 
+Print n integer numbers â€” rearranged (reordered) input sequence that can be the sequence 
 that Polycarp could write down on the board. It is guaranteed that the answer exists.
 
 ------------------------------------------------------------------------------------------*/
 
 import java.util.*;
-public class D977_DivideByThreeMultiplyByTwo {
+public class D0977_DivideByThreeMultiplyByTwo {
 	public static void main(String[] args) {
 		
 		Scanner sc = new Scanner(System.in);
