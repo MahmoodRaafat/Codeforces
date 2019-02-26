@@ -1,4 +1,3 @@
-package A;
 /*
 
 A - Insomnia Cure
@@ -22,7 +21,7 @@ Output the number of damaged dragons.
 ------------------------------------------------------------------------------------------------*/
 
 import java.util.*;
-public class A148_InsomniaCure {
+public class A0148_InsomniaCure {
 	public static void main(String[] args) {
 		
 		Scanner sc = new Scanner(System.in);
