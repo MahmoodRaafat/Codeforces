@@ -1,4 +1,3 @@
-package Over1000;
 /*
 
 A - Palindromic Twist
@@ -17,8 +16,8 @@ solve the problem separately.
 
 Input
 The first line contains a single integer T (1 <= T <= 50) - the number of strings in a testcase. 
-Then 2T lines follow — lines (2i-1) and 2i of them describe the i-th string. The first line of the 
-pair contains a single integer n (2 <= n <= 100, n is even) — the length of the corresponding string. 
+Then 2T lines follow â€” lines (2i-1) and 2i of them describe the i-th string. The first line of the 
+pair contains a single integer n (2 <= n <= 100, n is even) â€” the length of the corresponding string. 
 The second line of the pair contains a string s, consisting of n lowercase Latin letters.
 
 Output
