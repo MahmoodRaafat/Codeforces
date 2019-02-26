@@ -1,4 +1,3 @@
-package A;
 /*
 
 A - Twins
@@ -22,7 +21,7 @@ minimum number of coins you need to take to divide them in the described manner.
 
 Input
 The first line contains integer n (1 <= n <= 100) - the number of coins. The second line contains 
-a sequence of n integers a1, a2, ..., an (1 <= ai <= 100) — the coins' values. All numbers are 
+a sequence of n integers a1, a2, ..., an (1 <= ai <= 100) â€” the coins' values. All numbers are 
 separated with spaces.
 
 Output
@@ -31,7 +30,7 @@ In the single line print the single number - the minimum needed number of coins.
 -------------------------------------------------------------------------------------------------*/
 
 import java.util.*;
-public class A160_Twins {
+public class A0160_Twins {
 	public static void main(String[] args) {
 		
 		Scanner sc = new Scanner(System.in);
