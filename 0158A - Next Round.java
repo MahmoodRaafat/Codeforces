@@ -1,4 +1,3 @@
-package A;
 /*
 
 A - Next Round
@@ -21,7 +20,7 @@ Output the number of participants who advance to the next round.
 --------------------------------------------------------------------------------------------*/
 
 import java.util.*;
-public class A158_NextRound {
+public class A0158_NextRound {
 	public static void main(String[] args) {
 		
 		Scanner sc = new Scanner(System.in);
