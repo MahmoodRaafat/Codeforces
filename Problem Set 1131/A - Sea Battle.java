@@ -23,7 +23,7 @@ rectangle, the height of the first rectangle, the width of the second rectangle 
 rectangle. You can't rotate the rectangles.
 
 Output
-Print exactly one integer — the number of cells, which should be marked after the ship is destroyed.
+Print exactly one integer â€” the number of cells, which should be marked after the ship is destroyed.
 
 --------------------------------------------------------------------------------------------------------------*/
 
