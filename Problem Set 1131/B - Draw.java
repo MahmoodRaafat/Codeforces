@@ -4,7 +4,7 @@ B - Draw!
 
 You still have partial information about the score during the historic football match. You are given a set of 
 pairs (ai,bi), indicating that at some point during the match the score was "ai: bi". It is known that if the 
-current score is «x:y», then after the goal it will change to "x+1:y" or "x:y+1". What is the largest number 
+current score is Â«x:yÂ», then after the goal it will change to "x+1:y" or "x:y+1". What is the largest number 
 of times a draw could appear on the scoreboard? The pairs "ai:bi" are given in chronological order (time 
 increases), but you are given score only for some moments of time. The last pair corresponds to the end of 
 the match.
