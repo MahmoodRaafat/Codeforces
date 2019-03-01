@@ -1,4 +1,3 @@
-package B;
 /*
 
 B - Vanya and Lanterns
