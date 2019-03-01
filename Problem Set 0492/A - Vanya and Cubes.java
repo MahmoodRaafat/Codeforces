@@ -1,4 +1,3 @@
-package A;
 /*
 
 A - Vanya and Cubes
@@ -10,7 +9,7 @@ level of the pyramid must have 1 + 2 + ... + (i - 1) + i cubes. Vanya wants to k
 the maximum height of the pyramid that he can make using the given cubes.
 
 Input
-The first line contains integer n (1 <= n <= 10^4) — the number of cubes given to Vanya.
+The first line contains integer n (1 <= n <= 10^4) â€” the number of cubes given to Vanya.
 
 Output
 Print the maximum possible height of the pyramid in the single line.
