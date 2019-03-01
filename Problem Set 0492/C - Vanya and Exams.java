@@ -61,50 +61,51 @@ public class C0492_VanyaAndExams {
 		System.out.println(ans);
 	}
 	
+	// Merge Sort for a 2D array (based on first number in every row)
 	public static long[][] sort(long[][] arr) {
 		int n = arr.length;
-	    int mid = n/2;
-	    if (n >= 2) {
-	    	long[][] l = new long[mid][2];
-	        long[][] r = new long[n-mid][2];
-	        for(int i=0; i<mid; i++) {
-	        	l[i][0] = arr[i][0];
-	           	l[i][1] = arr[i][1];
-	        }
-	        for(int i=mid; i<n; i++) {
-	        	r[i-mid][0] = arr[i][0];
-	        	r[i-mid][1] = arr[i][1];
-	        }
-	        sort(l);
-	        sort(r);
-	        int leftPos = 0, rightPos = 0, pos = 0;
-	       	while (leftPos < l.length && rightPos < r.length){
-	    	   	if (l[leftPos][0] < r[rightPos][0]){
-	    	   		arr[pos][0] = l[leftPos][0];
-	    	   		arr[pos][1] = l[leftPos][1];
-	    	   		leftPos++;
-	    	   		pos++;
-	    	   	}
-	    	   	else {
-	    	   		arr[pos][0] = r[rightPos][0];
-	    	   		arr[pos][1] = r[rightPos][1];
-	    	   		rightPos++;
-	    	   		pos++;
-	    	   	}
-	       	}
-	       	while(leftPos < l.length){
-	       		arr[pos][0] = l[leftPos][0];
-	       		arr[pos][1] = l[leftPos][1];
-	       		leftPos++;
-	       		pos++;
-	       	}
-	       	while(rightPos < r.length){
-	       		arr[pos][0] = r[rightPos][0];
-	       		arr[pos][1] = r[rightPos][1];
-	       		rightPos++;
-	       		pos++;
-	       	} 
-	    }
-	    return arr;
+	    	int mid = n/2;
+	    	if (n >= 2) {
+	    		long[][] l = new long[mid][2];
+	        	long[][] r = new long[n-mid][2];
+	        	for(int i=0; i<mid; i++) {
+	        		l[i][0] = arr[i][0];
+	           		l[i][1] = arr[i][1];
+	        	}
+	        	for(int i=mid; i<n; i++) {
+	        		r[i-mid][0] = arr[i][0];
+	       		 	r[i-mid][1] = arr[i][1];
+	        	}
+	        	sort(l);
+	        	sort(r);
+	        	int leftPos = 0, rightPos = 0, pos = 0;
+	       		while (leftPos < l.length && rightPos < r.length){
+	    	   		if (l[leftPos][0] < r[rightPos][0]){
+	    	   			arr[pos][0] = l[leftPos][0];
+	    	   			arr[pos][1] = l[leftPos][1];
+	    	   			leftPos++;
+	    	   			pos++;
+	    	   		}
+	    	   		else {
+	    	   			arr[pos][0] = r[rightPos][0];
+	    	   			arr[pos][1] = r[rightPos][1];
+	    	   			rightPos++;
+	    	   			pos++;
+	    	   		}
+	       		}
+	       		while (leftPos < l.length){
+	       			arr[pos][0] = l[leftPos][0];
+	       			arr[pos][1] = l[leftPos][1];
+	       			leftPos++;
+	       			pos++;
+	       		}
+	       		while (rightPos < r.length){
+	       			arr[pos][0] = r[rightPos][0];
+	       			arr[pos][1] = r[rightPos][1];
+	       			rightPos++;
+	       			pos++;
+	       		} 
+	    	}
+	    	return arr;
 	}
 }
