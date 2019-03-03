@@ -53,13 +53,7 @@ public class D1106_LunarNewYearAndAWander {
 		Queue<Integer> pq = new PriorityQueue<Integer>();
 		boolean[] used = new boolean[numNodes+1];
 		used[1] = true;
-		for (int i=0; i<adj.get(1).size(); i++) {
-			if (!used[adj.get(1).get(i)]) {
-				pq.add(adj.get(1).get(i));
-				used[adj.get(1).get(i)] = true;
-			}
-		}
-		System.out.print(1 + " ");
+		pq.add(1);
 		
 		while(!pq.isEmpty()) {
 			int next = pq.poll();
