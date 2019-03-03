@@ -92,26 +92,26 @@ public class B1106_LunarNewYearAndFoodOrdering {
 			foods[t] = 0;
 			
 			while (d>0 && !pq.isEmpty()) {
-			    Food food = pq.peek();
+				Food food = pq.peek();
 			    
-			    if (foods[food.index] == 0) {
-			    	pq.remove(); 
-			    	continue;
-			    } 
+				if (foods[food.index] == 0) {
+			    		pq.remove(); 
+			    		continue;
+			    	} 
 			    
-			    if (foods[food.index] >= d) {
-			    	res += (long) d * cost[food.index];
-			    	foods[food.index] -= d;
-			    	if (foods[food.index] == 0)
+			  	if (foods[food.index] >= d) {
+			    		res += (long) d * cost[food.index];
+			    		foods[food.index] -= d;
+			    		if (foods[food.index] == 0)
+			    			pq.remove();
+			    		d = 0;        
+			    	}
+			    	else {
+			    		res += (long) foods[food.index] * cost[food.index];
+			    		d -= foods[food.index];
+			    		foods[food.index] = 0;
 			    		pq.remove();
-			    	d = 0;        
-			    }
-			    else {
-			    	res += (long) foods[food.index] * cost[food.index];
-			    	d -= foods[food.index];
-			    	foods[food.index] = 0;
-			    	pq.remove();
-			    }
+			    	}
 			}
 			
 			if (d > 0) 
