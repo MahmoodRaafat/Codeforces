@@ -39,24 +39,24 @@ Print m lines. In the j-th line print the cost for the j-th customer.
 
 import java.util.*;
 public class B1106_LunarNewYearAndFoodOrdering {
-    
-    static class Food implements Comparable<Food> {
-    	public int index;
-    	public int cost;
+	
+	static class Food implements Comparable<Food> {
+		public int index;
+    		public int cost;
     	
-    	public Food (int index, int cost) {
-    		this.index = index; 
-    		this.cost = cost;
-    	}
+    		public Food (int index, int cost) {
+    			this.index = index; 
+    			this.cost = cost;
+    		}
     	
-    	// sorts Foods in priority queue based on cost.
-    	// If their costs are the same, sort based on index
+    		// sorts Foods in priority queue based on cost.
+    		// If their costs are the same, sort based on index
 		public int compareTo(Food food) {
 			if (cost == food.cost) 
 				return Integer.compare(index, food.index);
 			return Integer.compare(cost, food.cost);
 		}
-    }
+	}
 	
 	public static void main (String[] args) {
 		
