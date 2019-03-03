@@ -14,13 +14,13 @@ happiness.
 
 Input
 The first line of the input contains three integers n, m and k (2 <= n <= 2*10^5, 
-1 <= k <= m <= 2*10^9) — the number of emotes, the number of times you can use emotes and 
+1 <= k <= m <= 2*10^9) â€” the number of emotes, the number of times you can use emotes and 
 the maximum number of times you may use the same emote in a row. The second line of the 
 input contains n integers a1, a2, ..., an (1 <= ai <= 10^9), where ai is value of the 
 happiness of the i-th emote.
 
 Output
-Print one integer — the maximum opponent's happiness if you use emotes in a way 
+Print one integer â€” the maximum opponent's happiness if you use emotes in a way 
 satisfying the problem statement.
 
 ---------------------------------------------------------------------------------------*/
