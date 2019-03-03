@@ -2,7 +2,7 @@
 
 C - Lunar New Year and Number Division
 
-Lunar New Year is approaching, and Bob is struggling with his homework – a number 
+Lunar New Year is approaching, and Bob is struggling with his homework â€“ a number 
 division problem. There are n positive integers a1, a2, ..., an on Bob's homework 
 paper, where n is always an even number. Bob is asked to divide those numbers into 
 groups, where each group must contain at least 2 numbers. Suppose the numbers are 
