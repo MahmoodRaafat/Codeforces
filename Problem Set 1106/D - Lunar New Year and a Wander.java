@@ -32,12 +32,12 @@ Bob can record.
 
 import java.util.*;
 public class D1106_LunarNewYearAndAWander {
-	static ArrayList<ArrayList<Integer>> adj = new ArrayList<ArrayList<Integer>>();
 	public static void main(String[] args) {
 
 		Scanner sc = new Scanner(System.in);
 		int numNodes = sc.nextInt();
 		int numEdges = sc.nextInt();
+		ArrayList<ArrayList<Integer>> adj = new ArrayList<ArrayList<Integer>>();
 		
 		for (int i=0; i<=numNodes; i++)
 			adj.add(new ArrayList<Integer>());
