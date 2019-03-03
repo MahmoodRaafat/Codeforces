@@ -2,7 +2,7 @@
 
 A - Best Subsegment
 
-You are given array a1,a2,…,an. Find the subsegment al, al+1, ..., ar (1 <= l <= r <= n) 
+You are given array a1,a2,â€¦,an. Find the subsegment al, al+1, ..., ar (1 <= l <= r <= n) 
 with maximum arithmetic mean (in floating-point numbers, i.e. without any rounding). If 
 there are many such subsegments find the longest one.
 
@@ -11,7 +11,7 @@ The first line contains single integer n (1 <= n <= 10^5) - length of the array 
 second line contains n integers a1, a2, ..., an (0 <= ai <=10^9) - the array a.
 
 Output
-Print the single integer — the length of the longest subsegment with maximum possible 
+Print the single integer â€” the length of the longest subsegment with maximum possible 
 arithmetic mean.
 
 ---------------------------------------------------------------------------------------*/
