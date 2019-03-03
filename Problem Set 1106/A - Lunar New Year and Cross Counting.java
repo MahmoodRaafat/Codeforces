@@ -17,7 +17,7 @@ exactly n characters, each of them is 'X' or '.'. The j-th element in the i-th l
 represents M(i, j), where 1 <= i, j <= n.
 
 Output
-Output a single line containing only one integer number k — the number of crosses in 
+Output a single line containing only one integer number k â€” the number of crosses in 
 the given matrix M.
 
 ------------------------------------------------------------------------------------*/
