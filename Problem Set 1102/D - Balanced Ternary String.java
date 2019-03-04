@@ -14,12 +14,12 @@ you can replace the given characters only with characters '0', '1' and '2'. It i
 that the answer exists.
 
 Input
-The first line of the input contains one integer n (3 <= n <= 3*10^5, n is divisible by 3) — 
+The first line of the input contains one integer n (3 <= n <= 3*10^5, n is divisible by 3) â€” 
 the number of characters in s. The second line contains the string s consisting of exactly n
 characters '0', '1' and '2'.
 
 Output
-Print one string — the lexicographically (alphabetically) smallest balanced ternary string 
+Print one string â€” the lexicographically (alphabetically) smallest balanced ternary string 
 which can be obtained from the given one with minimum number of replacements. Because n is 
 divisible by 3 it is obvious that the answer exists. And it is obvious that there is only one 
 possible answer.
