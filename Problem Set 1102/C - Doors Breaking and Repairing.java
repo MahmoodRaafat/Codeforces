@@ -20,7 +20,7 @@ The first line of the input contains three integers n, x, and y (1 <= n <= 100, 
 integers a1, a2, ..., an (1 <= ai <= 10^5), where ai is the initial durability of the i-th door.
 
 Output
-Print one integer — the number of doors with durability equal to 0 at the end of the game, if you 
+Print one integer â€” the number of doors with durability equal to 0 at the end of the game, if you 
 and Slavik both play optimally.
 
 -------------------------------------------------------------------------------------------------*/
