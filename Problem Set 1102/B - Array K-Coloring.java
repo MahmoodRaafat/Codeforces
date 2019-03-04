@@ -14,7 +14,7 @@ element of the given array) satisfying the conditions above. If there are multip
 can print any.
 
 Input
-The first line of the input contains two integers n and k (1 <= k <= n <= 5000) — the length of the 
+The first line of the input contains two integers n and k (1 <= k <= n <= 5000) â€” the length of the 
 array a and the number of colors, respectively. The second line of the input contains n integers 
 a1, a2, ..., an (1 <= ai <= 5000) - elements of the array a.
 
