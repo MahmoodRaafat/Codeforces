@@ -1,6 +1,6 @@
 /*
 
-A - DiagonalWalking
+A - Diagonal Walking
 
 Mikhail walks on a 2D plane. He can go either up or right. You are given a sequence of Mikhail's 
 moves. He thinks that this sequence is too long and he wants to make it as short as possible. In 
@@ -11,7 +11,7 @@ consecutive moves RU or UR left. Your problem is to print the minimum possible l
 sequence of moves after the replacements.
 
 Input
-The first line of the input contains one integer n (1 <= n <= 100) — the length of the sequence. 
+The first line of the input contains one integer n (1 <= n <= 100) â€” the length of the sequence. 
 The second line contains the sequence consisting of n characters U and R.
 
 Output
