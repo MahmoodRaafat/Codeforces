@@ -8,10 +8,10 @@ traversed some path in this matrix. Your path can be described as a sequence of 
 a2, ..., an, denoting that you started in the cell containing the number a1, then moved to the cell 
 with the number a2, and so on. From the cell located in i-th line and j-th column (we denote this 
 cell as (i, j)) you can move into one of the following cells:
-    (i + 1, j) — only if i < x;
-    (i, j + 1) — only if j < y;
-    (i - 1, j) — only if i > 1;
-    (i, j - 1) — only if j > 1.
+    (i + 1, j) â€” only if i < x;
+    (i, j + 1) â€” only if j < y;
+    (i - 1, j) â€” only if i > 1;
+    (i, j - 1) â€” only if j > 1.
 Notice that making a move requires you to go to an adjacent cell. It is not allowed to stay in the 
 same cell. You don't know x and y exactly, but you have to find any possible values for these 
 numbers such that you could start in the cell containing the integer a1, then move to the cell 
@@ -19,9 +19,9 @@ containing a2 (in one step), then move to the cell containing a3 (also in one st
 Can you choose x and y so that they don't contradict with your sequence of moves?
 
 Input
-The first line contains one integer number n (1 <= n <= 200000) — the number of cells you visited 
+The first line contains one integer number n (1 <= n <= 200000) â€” the number of cells you visited 
 on your path (if some cell is visited twice, then it's listed twice). The second line contains n 
-integers a1, a2, ..., an (1 <= ai <= 10^9) — the integers in the cells on your path.
+integers a1, a2, ..., an (1 <= ai <= 10^9) â€” the integers in the cells on your path.
 
 Output
 If all possible values of x and y such that 1 <= x, y <= 10^9 contradict with the information about 
