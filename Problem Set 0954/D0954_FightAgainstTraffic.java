@@ -22,13 +22,14 @@ road connects junctions ui and vi directly. It is guaranteed that there is a pat
 junctions and no two roads connect the same pair of junctions.
 
 Output
-Print one integer — the number of pairs of junctions not connected by a direct road, such that 
+Print one integer â€” the number of pairs of junctions not connected by a direct road, such that 
 building a road between these two junctions won't decrease the distance between junctions s and t.
 
 -------------------------------------------------------------------------------------------------*/
 
 import java.util.*;
 public class D0954_FightAgainstTraffic {
+	
 	static Queue<Node> q = new ArrayDeque<Node>();
 	static int s, t;
 	
@@ -83,6 +84,7 @@ public class D0954_FightAgainstTraffic {
 		System.out.println(res/2);
 	}
 	
+	// find distance b/w node at index to all other nodes
 	public static void findDist(int n, Node[] nodes, int index) {
 		boolean[] visited = new boolean[n];
 		q.add(nodes[index]);
