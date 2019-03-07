@@ -13,12 +13,12 @@ is to type 4 characters one by one, then copy the string, and then type the rema
 Print the minimum number of operations you need to type the given string.
 
 Input
-The first line of the input containing only one integer number n (1 <= n <= 100) — the length of 
+The first line of the input containing only one integer number n (1 <= n <= 100) â€” the length of 
 the string you have to type. The second line containing the string s consisting of n lowercase 
 Latin letters.
 
 Output
-Print one integer number — the minimum number of operations you need to type the given string.
+Print one integer number â€” the minimum number of operations you need to type the given string.
 
 -------------------------------------------------------------------------------------------------*/
 
