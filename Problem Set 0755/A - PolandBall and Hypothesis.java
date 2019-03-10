@@ -9,8 +9,7 @@ doesn't know that his hypothesis is incorrect. Could you prove it wrong? Write a
 finds a counterexample for any n.
 
 Input
-
-The only number in the input is n (1 <= n <= 1000) — number from the PolandBall's hypothesis.
+The only number in the input is n (1 <= n <= 1000) â€” number from the PolandBall's hypothesis.
 
 Output
 Output such m that n*m + 1 is not a prime number. Your answer will be considered correct if 
@@ -19,7 +18,7 @@ you output any suitable m such that 1 <= m <= 10^3. It is guaranteed the the ans
 -------------------------------------------------------------------------------------------*/
 
 import java.util.*;
-public class A755_PolandBallAndHypothesis {
+public class A0755_PolandBallAndHypothesis {
 	public static void main(String[] args) {
 
 		Scanner sc = new Scanner(System.in);
