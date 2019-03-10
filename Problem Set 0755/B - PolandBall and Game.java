@@ -8,35 +8,35 @@ can't say a new word loses. You're given two lists of words familiar to PolandBa
 EnemyBall. Can you determine who wins the game, if both play optimally?
 
 Input
-The first input line contains two integers n and m (1 <= n, m <= 10^3) — number of words 
-PolandBall and EnemyBall know, respectively. Then n strings follow, one per line — words 
-familiar to PolandBall. Then m strings follow, one per line — words familiar to EnemyBall. 
+The first input line contains two integers n and m (1 <= n, m <= 10^3) â€” number of words 
+PolandBall and EnemyBall know, respectively. Then n strings follow, one per line â€” words 
+familiar to PolandBall. Then m strings follow, one per line â€” words familiar to EnemyBall. 
 Note that one Ball cannot know a word more than once (strings are unique), but some words 
 can be known by both players. Each word is non-empty and consists of no more than 500 
 lowercase English alphabet letters. 
 
 Output
-In a single line of print the answer — "YES" if PolandBall wins and "NO" otherwise. Both 
+In a single line of print the answer â€” "YES" if PolandBall wins and "NO" otherwise. Both 
 Balls play optimally.
 
 -------------------------------------------------------------------------------------------*/
 
 import java.util.*;
-public class B755_PolandBallAndGame {
+public class B0755_PolandBallAndGame {
 	public static void main(String[] args) {
 
 		Scanner sc = new Scanner(System.in);
 		int n = sc.nextInt();
 		int m = sc.nextInt();
-		ArrayList<String> PB = new ArrayList<String>();
+		ArrayList<String> PolandBallsWords = new ArrayList<String>();
 		int same = 0;
 		
 		for (int i=0; i<n; i++)
-			PB.add(sc.next());
+			PolandBallsWords.add(sc.next());
 
 		for (int i=0; i<m; i++) {
 			String str = sc.next();
-			if (PB.contains(str))
+			if (PolandBallsWords.contains(str))
 				same++;
 		}
 		sc.close();
