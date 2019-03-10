@@ -15,11 +15,11 @@ that's why he wants to calculate the minimum total power the farmer can reach. T
 machines, and Sasha can't cope with computations, help him!
 
 Input
-The first line contains one integer n (2 <= n <= 5*10^4) — the number of machines. The second line 
-contains n integers a1, a2, ..., an (1 <= ai <= 100) — the powers of the machines.
+The first line contains one integer n (2 <= n <= 5*10^4) â€” the number of machines. The second line 
+contains n integers a1, a2, ..., an (1 <= ai <= 100) â€” the powers of the machines.
 
 Output
-Print one integer — minimum total power.
+Print one integer â€” minimum total power.
 
 ----------------------------------------------------------------------------------------------------*/
 
