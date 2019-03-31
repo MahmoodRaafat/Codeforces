@@ -16,7 +16,7 @@ envelopes and very little time, this hard task is entrusted to you.
 Input
 The first line contains integers n, w, h (1 <= n <= 5000, 1 <= w, h <= 10^6) - amount 
 of envelopes Peter has, the card width and height respectively. Then there follow n 
-lines, each of them contains two integer numbers wi and hi — width and height of the 
+lines, each of them contains two integer numbers wi and hi â€” width and height of the 
 i-th envelope (1 <= wi, hi <= 10^6).
 
 Output
