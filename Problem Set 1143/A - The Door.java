@@ -15,7 +15,7 @@ index k such that Mr. Black can exit the house after opening the first k doors. 
 that Mr. Black opened each door at most once, and in the end all doors became open.
 
 Input
-The first line contains integer n (2 <= n <= 200,000) — the number of doors. The next 
+The first line contains integer n (2 <= n <= 200,000) â€” the number of doors. The next 
 line contains n integers: the sequence in which Mr. Black opened the doors. The i-th of 
 these integers is equal to 0 in case the i-th opened door is located in the left exit, 
 and it is equal to 1 in case it is in the right exit. It is guaranteed that there is at 
@@ -29,7 +29,7 @@ able to exit the house.
 --------------------------------------------------------------------------------------*/
 
 import java.util.*;
-public class A1143_TheDoor {
+public class A1143_TheDoors {
 	public static void main(String[] args) {
 
 		Scanner sc = new Scanner(System.in);
