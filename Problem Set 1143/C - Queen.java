@@ -18,7 +18,7 @@ matching the criteria for deletion, you stop the process. Print the order in whi
 will delete the vertices. Note that this order is unique.
 
 Input
-The first line contains a single integer n (1 <= n <= 10^5) — the number of vertices in 
+The first line contains a single integer n (1 <= n <= 10^5) â€” the number of vertices in 
 the tree. The next n lines describe the tree: the i-th line contains two integers pi 
 and ci (1 <= pi <= n, 0 <= ci <= 1), where pi is the parent of the vertex i, and ci=0, 
 if the vertex i respects its parents, and ci=1, if the vertex i does not respect any of 
