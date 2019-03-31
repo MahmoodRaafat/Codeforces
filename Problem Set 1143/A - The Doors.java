@@ -17,10 +17,10 @@ that Mr. Black opened each door at most once, and in the end all doors became op
 Input
 The first line contains integer n (2 <= n <= 200,000) — the number of doors. The next 
 line contains n integers: the sequence in which Mr. Black opened the doors. The i-th of 
-these integers is equal to 0 in case the i-th opened door is located in the left exit, 
-and it is equal to 1 in case it is in the right exit. It is guaranteed that there is at 
-least one door located in the left exit and there is at least one door located in the 
-right exit.
+these integers is equal to 0 in the case that the i-th opened door is located in the 
+left exit, and it is equal to 1 in the case that it is in the right exit. It is 
+guaranteed that there is at least one door located in the left exit and there is at 
+least one door located in the right exit.
 
 Output
 Print the smallest integer k such that after Mr. Black opened the first k doors, he was 
