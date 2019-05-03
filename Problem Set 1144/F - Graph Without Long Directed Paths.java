@@ -8,7 +8,7 @@ way that the obtained directed graph does not contain any paths of length two or
 (where the length of path is denoted as the number of traversed edges).
 
 Input
-The first line contains two integer numbers n and m (2 <= n <= 2*10^5, n-1 <= m <= 2*10^5) — 
+The first line contains two integer numbers n and m (2 <= n <= 2*10^5, n-1 <= m <= 2*10^5) â€” 
 the number of vertices and edges, respectively. The following m lines contain edges: edge i 
 is given as a pair of vertices ui, vi (1 <= ui, vi <= n, ui != vi). There are no multiple 
 edges in the given graph, i.e. for each pair (ui, vi) there are no other pairs (ui, vi) and 
