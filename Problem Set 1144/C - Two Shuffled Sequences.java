@@ -2,31 +2,31 @@
 
 C - Two Shuffled Sequences
 
-Two integer sequences existed initially — one of them was strictly increasing, and the 
-other one — strictly decreasing. Note that the empty sequence and the sequence consisting 
+Two integer sequences existed initially â€” one of them was strictly increasing, and the 
+other one â€” strictly decreasing. Note that the empty sequence and the sequence consisting 
 of one element can be considered as increasing or decreasing. They were merged into one 
 sequence a. After that sequence a got shuffled. For example, some of the possible resulting 
 sequences a for an increasing sequence [1,3,4] and a decreasing sequence [10,4,2] are 
 sequences [1,2,3,4,4,10] or [4,2,1,10,4,3]. This shuffled sequence a is given in the input.
 Your task is to find any two suitable initial sequences. One of them should be strictly 
-increasing and the other one — strictly decreasing. 
+increasing and the other one â€” strictly decreasing. 
 
 Input
-The first line of the input contains one integer n (1 <= n <= 2*10^5) — the number of 
+The first line of the input contains one integer n (1 <= n <= 2*10^5) â€” the number of 
 elements in a. The second line of the input contains n integers a1, a2, ..., an 
 (0 <= ai <= 2*10^5), where ai is the i-th element of a.
 
 Output
 If there is a contradiction in the input and it is impossible to split the given sequence a
 to increasing and decreasing sequences, print "NO" in the first line. Otherwise print "YES" 
-in the first line and any two suitable sequences. In the second line print ni — the number 
+in the first line and any two suitable sequences. In the second line print ni â€” the number 
 of elements in the strictly increasing sequence. ni can be zero, in this case the increasing 
 sequence is empty. In the third line print ni integers inc1, inc2, ..., incni in the 
-increasing order of its values — the strictly increasing sequence itself. You can keep this 
-line empty if ni=0 (or just print the empty line). In the fourth line print nd — the number 
+increasing order of its values â€” the strictly increasing sequence itself. You can keep this 
+line empty if ni=0 (or just print the empty line). In the fourth line print nd â€” the number 
 of elements in the strictly decreasing sequence. nd can be zero, in this case the 
 decreasing sequence is empty. In the fifth line print nd integers in the decreasing order of 
-its values — the strictly decreasing sequence itself. You can keep this line empty if nd=0
+its values â€” the strictly decreasing sequence itself. You can keep this line empty if nd=0
 (or just print the empty line). ni+nd should be equal to n and the union of printed 
 sequences should be a permutation of the given sequence (in case of "YES" answer).
 
