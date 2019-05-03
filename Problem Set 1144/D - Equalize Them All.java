@@ -14,12 +14,12 @@ obtain the array of equal elements using such operations. Note that after each o
 element of the current array should not exceed 10^18 by absolute value.
 
 Input
-The first line of the input contains one integer n (1 <= n <= 2*10^5) — the number of 
+The first line of the input contains one integer n (1 <= n <= 2*10^5) â€” the number of 
 elements in a. The second line of the input contains n integers a1, a2, ..., an 
 (0 <= ai <= 2*10^5), where ai is the i-th element of a.
 
 Output
-In the first line print one integer k — the minimum number of operations required to obtain 
+In the first line print one integer k â€” the minimum number of operations required to obtain 
 the array of equal elements. In the next k lines print operations itself. The p-th operation 
 should be printed as a triple of integers (tp, ip, jp), where tp is either 1 or 2 (1 means 
 that you perform the operation of the first type, and 2 means that you perform the operation 
