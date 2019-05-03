@@ -18,12 +18,12 @@ game. If Polycarp can delete the whole array, then the sum of non-deleted elemen
 Help Polycarp find this value.
 
 Input
-The first line of the input contains one integer n (1 <= n <= 2000) — the number of elements 
+The first line of the input contains one integer n (1 <= n <= 2000) â€” the number of elements 
 of a. The second line of the input contains n integers a1, a2, ..., an (0 <= ai <= 10^6), 
 where ai is the i-th element of a.
 
 Output
-Print one integer — the minimum possible sum of non-deleted elements of the array after end 
+Print one integer â€” the minimum possible sum of non-deleted elements of the array after end 
 of the game.
 
 --------------------------------------------------------------------------------------------*/
