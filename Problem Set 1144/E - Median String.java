@@ -25,6 +25,7 @@ public class E1144_MedianString {
 			else
 				avg[i] = sum;
 		}
+		
 		for (int i=0; i<=n; i++) {
 			if (avg[i]%2==1) {
 				avg[i]--;
@@ -32,6 +33,7 @@ public class E1144_MedianString {
 			}
 			avg[i] /= 2;
 		}
+		
 		StringBuffer sb = new StringBuffer();
 		for (int i=1; i<=n; i++)
 			sb.append((char) (avg[i] + 'a'));
