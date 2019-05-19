@@ -12,9 +12,9 @@ the number of users that will know the news if initially only user x starts
 distributing it.
 
 Input
-The first line contains two integers n and m (1 <= n, m <= 5*10^5) — the number of 
+The first line contains two integers n and m (1 <= n, m <= 5*10^5) â€” the number of 
 users and the number of groups of friends, respectively. Then m lines follow, each 
-describing a group of friends. The i-th line begins with integer ki (0 <= ki <= n) — 
+describing a group of friends. The i-th line begins with integer ki (0 <= ki <= n) â€” 
 the number of users in the i-th group. Then ki distinct integers follow, denoting the 
 users belonging to the i-th group. It is guaranteed that the sum of all ki values is 
 less than 5*10^5.
