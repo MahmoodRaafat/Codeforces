@@ -4,7 +4,7 @@ B - Lost Numbers
 
 This is an interactive problem. Remember to flush your output while communicating with 
 the testing program. (system.out.flush() in Java). The jury guessed some array a
-consisting of 6 integers. There are 6 special numbers — 4, 8, 15, 16, 23, 42 — and each 
+consisting of 6 integers. There are 6 special numbers â€” 4, 8, 15, 16, 23, 42 â€” and each 
 of these numbers occurs in a exactly once (so, a is some permutation of these numbers).
 You don't know anything about their order, but you are allowed to ask up to 4
 queries. In each query, you may choose two indices i and j (1 <= i,j <= 6, i and j are 
@@ -14,7 +14,7 @@ Interaction
 Before submitting the answer, you may ask up to 4 queries. To ask a query, print one 
 line in the following format: ? i j, where i and j should be two integers such that 
 1 <= i,j <= 6. The line should be ended with a line break character. After submitting a 
-query, flush the output and read the answer to your query — one line containing one 
+query, flush the output and read the answer to your query â€” one line containing one 
 integer ai*aj. If you submit an incorrect query (or ask more than 4 queries), the 
 answer to it will be one string 0. After receiving such an answer, your program should 
 terminate immediately. To give the answer, your program should print one line - 
@@ -66,11 +66,9 @@ public class B1167_LostNumbers {
 	public static int[] findNums(int q) {
 		int[] arr = new int[2];
 		for (int i=0; i<5; i++) {
-			for (int j=i+1; j<6; j++) {
-				if (nums[i]*nums[j] == q) {
-					arr[0] = nums[i];
-					arr[1] = nums[j];
-				}
+			for (int j=i+1; j<6; j++) if (nums[i]*nums[j] == q) {
+				arr[0] = nums[i];
+				arr[1] = nums[j];
 			}
 		}
 		return arr;
