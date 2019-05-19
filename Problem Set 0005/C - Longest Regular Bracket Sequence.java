@@ -3,7 +3,7 @@
 C - Longest Regular Bracket Sequence
 
 This is yet another problem dealing with regular bracket sequences. We should remind you 
-that a bracket sequence is called regular, if by inserting «+» and «1» into it we can get 
+that a bracket sequence is called regular, if by inserting Â«+Â» and Â«1Â» into it we can get 
 a correct mathematical expression. For example, sequences <(())()>, <()> and <(()(()))> are 
 regular, while <)(>, <(()> and <(()))(> are not. You are given a string of <(> and <)> 
 characters. You are to find its longest substring that is a regular bracket sequence. You 
@@ -23,6 +23,7 @@ number of such substrings. If there are no such substrings, write the only line 
 import java.io.*;
 import java.util.*;
 public class C0005_LongestRegularBracketSequence {
+	
 	public static void main(String[] args) {
 		InputReader in = new InputReader();
 		String str = in.next();
