@@ -27,13 +27,14 @@ can be an empty line. It is guaranteed, that input data are correct, i.e. there 
 command if there is no person with such a name in the chat etc. All names are case-sensitive.
 
 Output
-Print a single number — answer to the problem.
+Print a single number â€” answer to the problem.
 
 --------------------------------------------------------------------------------------------*/
 
 import java.util.*;
 import java.io.*;
 public class A0005_ChatServersOutgoingTraffic {
+	
 	public static void main(String[] args) throws IOException {
 		BufferedReader in = new BufferedReader(new InputStreamReader(System.in));
 		ArrayList<String> commands = readInput(in);
