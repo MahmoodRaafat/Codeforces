@@ -17,7 +17,7 @@ uncolored. Among all possible variants you should choose one that minimizes maxi
 r's and b's nesting depth. If there are multiple solutions you can print any of them.
 
 Input
-The first line contains an even integer n (2 <= n <= 2*10^5) — the length of RBS s. The 
+The first line contains an even integer n (2 <= n <= 2*10^5) â€” the length of RBS s. The 
 second line contains regular bracket sequence s (length n, consisting of "(" and ")").
 
 Output
