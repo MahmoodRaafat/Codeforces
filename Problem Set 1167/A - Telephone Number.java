@@ -11,8 +11,8 @@ is such a sequence of operations (possibly empty), after which the string s beco
 telephone number.
 
 Input
-The first line contains one integer t (1 <= t <= 100) — the number of test cases. The 
-first line of each test case contains one integer n (1 <= n <= 100) — the length of 
+The first line contains one integer t (1 <= t <= 100) â€” the number of test cases. The 
+first line of each test case contains one integer n (1 <= n <= 100) â€” the length of 
 string s. The second line of each test case contains the string s (of length n) 
 consisting of digits.
 
