@@ -12,11 +12,11 @@ be positive integer number.
 
 Input
 The first line of the input contains two integer numbers n and k (2 <= n <= 10^9, 
-1 <= k <= 50) — the number from which Tanya will subtract and the number of subtractions 
+1 <= k <= 50) â€” the number from which Tanya will subtract and the number of subtractions 
 correspondingly.
 
 Output
-Print one integer number — the result of the decreasing n by one k times.
+Print one integer number â€” the result of the decreasing n by one k times.
 
 --------------------------------------------------------------------------------------------*/
 
