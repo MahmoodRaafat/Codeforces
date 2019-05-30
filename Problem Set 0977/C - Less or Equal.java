@@ -10,7 +10,7 @@ elements. If there is no such x, print "-1" (without quotes).
 Input
 The first line of the input contains integer numbers n
 and k (1 <= n <= 2*10^5, 0 <= k <= n). The second line of the input contains n integer 
-numbers a1, a2, ..., an (1 <= ai <= 10^9) — the sequence itself.
+numbers a1, a2, ..., an (1 <= ai <= 10^9) â€” the sequence itself.
 
 Output
 Print any integer number x from range [1;109] such that exactly k elements of given 
