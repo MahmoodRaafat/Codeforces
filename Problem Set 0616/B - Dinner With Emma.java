@@ -17,11 +17,11 @@ minimize the cost of the dinner. Find the cost of the dinner for the couple in l
 Input
 The first line contains two integers n, m (1 <= n, m <= 100) - the number of 
 streets and avenues in Munhattan. Each of the next n lines contains m integers cij 
-(1 <= cij <= 10^9) — the cost of the dinner in the restaurant on the intersection 
+(1 <= cij <= 10^9) â€” the cost of the dinner in the restaurant on the intersection 
 of the i-th street and the j-th avenue.
 
 Output
-Print the only integer a — the cost of the dinner for Jack and Emma.
+Print the only integer a â€” the cost of the dinner for Jack and Emma.
 
 ----------------------------------------------------------------------------------*/
 
