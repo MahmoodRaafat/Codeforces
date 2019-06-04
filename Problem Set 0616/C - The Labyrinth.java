@@ -13,11 +13,11 @@ size (the number of cells) of the connected component which contains (x, y). You
 should do it for each impassable cell independently. The answer should be printed 
 as a matrix with n rows and m columns. The j-th symbol of the i-th row should be 
 "." if the cell is empty at the start. Otherwise the j-th symbol of the i-th row 
-should contain the only digit —- the answer modulo 10. The matrix should be 
+should contain the only digit â€”- the answer modulo 10. The matrix should be 
 printed without any spaces.
 
 Input
-The first line contains two integers n, m (1 <= n, m <= 1000) — the number of 
+The first line contains two integers n, m (1 <= n, m <= 1000) â€” the number of 
 rows and columns in the field. Each of the next n lines contains m symbols: "." 
 for empty cells, "*" for impassable cells.
 
