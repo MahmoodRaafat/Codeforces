@@ -15,7 +15,7 @@ Input
 Input data contains the only number n (1 <= n <= 10^9).
 
 Output
-Output the only number — answer to the problem.
+Output the only number â€” answer to the problem.
 
 ----------------------------------------------------------------------------------*/
 
