@@ -3,7 +3,7 @@
 A - Digits Sequence Dividing
 
 You are given a sequence s consisting of n digits from 1 to 9. You have to divide it into 
-at least two segments (segment — is a consecutive sequence of elements) (in other words, 
+at least two segments (segment â€” is a consecutive sequence of elements) (in other words, 
 you have to place separators between some digits of the sequence) in such a way that each 
 element belongs to exactly one segment and if the resulting division will be represented 
 as an integer numbers sequence then each next element of this sequence will be strictly 
@@ -14,17 +14,17 @@ representations of strings are compared) should be satisfied. Your task is to fi
 suitable division for each of the q independent queries.
 
 Input
-The first line of the input contains one integer q (1 <= q <= 300) — the number of 
+The first line of the input contains one integer q (1 <= q <= 300) â€” the number of 
 queries. The first line of the i-th query contains one integer number ni (2 <= ni <= 300) 
-— the number of digits in the i-th query. The second line of the i-th query contains one 
+â€” the number of digits in the i-th query. The second line of the i-th query contains one 
 string si of length ni consisting only of digits from 1 to 9.
 
 Output
 If the sequence of digits in the i-th query cannot be divided into at least two parts in 
 a way described in the problem statement, print the single line "NO" for this query. 
 Otherwise in the first line of the answer to this query print "YES", on the second line 
-print ki — the number of parts in your division of the i-th query sequence and in the 
-third line print ki strings ti, 1, ti, 2, ..., ti, ki — your division. Parts should be 
+print ki â€” the number of parts in your division of the i-th query sequence and in the 
+third line print ki strings ti, 1, ti, 2, ..., ti, ki â€” your division. Parts should be 
 printed in order of the initial string digits. It means that if you write the parts one 
 after another without changing their order then you'll get the string si.
 
