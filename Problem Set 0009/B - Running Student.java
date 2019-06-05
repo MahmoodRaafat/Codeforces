@@ -24,7 +24,7 @@ line contains the coordinates of the University, integers xu and yu, not exceedi
 in absolute value.
 
 Output
-In the only line output the answer to the problem — index of the optimum bus stop.
+In the only line output the answer to the problem â€” index of the optimum bus stop.
 
 -----------------------------------------------------------------------------------------*/
 
