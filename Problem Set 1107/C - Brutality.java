@@ -18,15 +18,15 @@ won't reset. Your task is to skip some hits to deal the maximum possible total d
 the opponent's character and not break your gamepad buttons.
 
 Input
-The first line of the input contains two integers n and k (1 <= k <= n <= 2*10^5) — the 
+The first line of the input contains two integers n and k (1 <= k <= n <= 2*10^5) â€” the 
 number of hits and the maximum number of times you can push the same button in a row. The 
 second line of the input contains n integers a1, a2, ..., an (1 <= ai <= 10^9), where ai 
 is the damage of the i-th hit. The third line of the input contains the string s 
-consisting of exactly n lowercase Latin letters — the sequence of hits (each character is 
+consisting of exactly n lowercase Latin letters â€” the sequence of hits (each character is 
 the letter on the button you need to press to perform the corresponding hit).
 
 Output
-Print one integer dmg — the maximum possible damage to the opponent's character you can 
+Print one integer dmg â€” the maximum possible damage to the opponent's character you can 
 deal without breaking your gamepad buttons.
 
 ------------------------------------------------------------------------------------------*/
