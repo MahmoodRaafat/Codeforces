@@ -14,7 +14,7 @@ of the week to start his trip optimally.
 
 Input
 The first line of the input contains three positive integers a, b and c 
-(1 <= a,b,c <= 7*10^8) — the number of daily rations of fish food, rabbit stew and 
+(1 <= a,b,c <= 7*10^8) â€” the number of daily rations of fish food, rabbit stew and 
 chicken stakes in Polycarps backpack correspondingly.
 
 Output
