@@ -11,12 +11,12 @@ perform changes in such a way, that all ai are equal (i.e. a1=a2=...=an). Print 
 required D or, if it is impossible to choose such value D, print -1. 
 
 Input
-The first line of the input contains one integer n (1 <= n <= 100) — the number of 
+The first line of the input contains one integer n (1 <= n <= 100) â€” the number of 
 elements in a. The second line of the input contains n integers a1, a2, ..., an 
-(1 <= ai <= 100) — the sequence a.
+(1 <= ai <= 100) â€” the sequence a.
 
 Output
-Print one integer — the minimum non-negative integer value D such that if you add this 
+Print one integer â€” the minimum non-negative integer value D such that if you add this 
 value to some ai, subtract this value from some ai and leave some ai without changes, 
 all obtained values become equal. If it is impossible to choose such value D, print -1.
 
