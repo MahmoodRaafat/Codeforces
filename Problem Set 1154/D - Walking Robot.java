@@ -21,13 +21,13 @@ as possible. Find the maximum number of segments of distance the robot can pass 
 control him optimally.
 
 Input
-The first line of the input contains three integers n, b, a (1 <= n,b,a <= 2*10^5) — the 
+The first line of the input contains three integers n, b, a (1 <= n,b,a <= 2*10^5) â€” the 
 robot's destination point, the battery capacity and the accumulator capacity, respectively.
 The second line of the input contains n integers s1, s2, ..., sn (0 <= si <= 1), where si 
 is 1 if the i-th segment of distance is exposed to sunlight, and 0 otherwise.
 
 Output
-Print one integer — the maximum number of segments the robot can pass if you control him 
+Print one integer â€” the maximum number of segments the robot can pass if you control him 
 optimally.
 
 ------------------------------------------------------------------------------------------*/
