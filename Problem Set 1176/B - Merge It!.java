@@ -9,12 +9,12 @@ of elements divisible by 3 that are in the array after performing this operation
 (possibly, zero) number of times. You have to answer t independent queries.
 
 Input
-The first line contains one integer t (1 <= t <= 1000) — the number of queries. The first line 
+The first line contains one integer t (1 <= t <= 1000) â€” the number of queries. The first line 
 of each query contains one integer n (1 <= n <= 100). The second line of each query contains n
 integers a1, a2, ..., an (1 <= ai <= 10^9).
 
 Output
-For each query print one integer in a single line — the maximum possible number of elements 
+For each query print one integer in a single line â€” the maximum possible number of elements 
 divisible by 3 that are in the array after performing described operation an arbitrary 
 (possibly, zero) number of times.
 
