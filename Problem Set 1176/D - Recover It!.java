@@ -15,13 +15,13 @@ exists (so the array b is obtained from some suitable array a). If there are mul
 you can print any.
 
 Input
-The first line of the input contains one integer n (1 <= n <= 2*10^5) — the number of elements 
+The first line of the input contains one integer n (1 <= n <= 2*10^5) â€” the number of elements 
 in a. The second line of the input contains 2n integers b1, b2, ..., b2n (2 <= bi <= 2750131), 
 where bi is the i-th element of b. 2750131 is the 199999-th prime number.
 
 Output
 In the only line of the output print n integers a1, a2, ..., an (2 <= ai <= 2*10^5) in any order 
-— the array a from which the array b can be obtained using the sequence of moves given in the 
+â€” the array a from which the array b can be obtained using the sequence of moves given in the 
 problem statement. If there are multiple answers, you can print any.
 
 -----------------------------------------------------------------------------------------------*/
