@@ -1,7 +1,7 @@
 /*
 
 C - Lose It!
-
+ 
 You are given an array a consisting of n integers. Each ai is one of the six following numbers: 
 4,8,15,16,23,42. Your task is to remove the minimum number of elements to make this array good.
 An array of length k is called good if k is divisible by 6 and it is possible to split it into 
