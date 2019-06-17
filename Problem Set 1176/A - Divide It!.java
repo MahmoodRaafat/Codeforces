@@ -9,7 +9,7 @@ task is to find the minimum number of moves required to obtain 1 from n or say t
 impossible to do it. You have to answer q independent queries.
 
 Input
-The first line of the input contains one integer q (1 <= q <= 1000) — the number of queries. The 
+The first line of the input contains one integer q (1 <= q <= 1000) â€” the number of queries. The 
 next q lines contain the queries. For each query you are given the integer number n 
 (1 <= n <= 10^18).
 
