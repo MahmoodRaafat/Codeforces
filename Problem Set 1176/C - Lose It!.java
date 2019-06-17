@@ -8,12 +8,12 @@ An array of length k is called good if k is divisible by 6 and it is possible to
 k*6 subsequences 4,8,15,16,23,42. 
 
 Input
-The first line of the input contains one integer n (1 <= n <= 5*10^5) — the number of elements 
+The first line of the input contains one integer n (1 <= n <= 5*10^5) â€” the number of elements 
 in a. The second line of the input contains n integers a1, a2, ..., an (each ai is one of the 
 following numbers: 4,8,15,16,23,42), where ai is the i-th element of a.
 
 Output
-Print one integer — the minimum number of elements you have to remove to obtain a good array.
+Print one integer â€” the minimum number of elements you have to remove to obtain a good array.
 
 ----------------------------------------------------------------------------------------------*/
 
