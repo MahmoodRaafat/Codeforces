@@ -10,16 +10,16 @@ exists. If there are multiple answers, you can print any. You will be given mult
 queries to answer.
 
 Input
-The first line contains a single integer t (1 <= t <= 2*10^5) — the number of queries. Then t
+The first line contains a single integer t (1 <= t <= 2*10^5) â€” the number of queries. Then t
 queries follow. The first line of each query contains two integers n and m (2 <= n <= 2*10^5, 
-n-1 <= m <= min(2*10^5, n*(n-1)/2)) — the number of vertices and the number of edges, 
+n-1 <= m <= min(2*10^5, n*(n-1)/2)) â€” the number of vertices and the number of edges, 
 respectively. The following m lines denote edges: edge i is represented by a pair of integers 
 vi, ui (1 <= vi, ui <= n, ui != vi), which are the indices of vertices connected by the edge.
 It is guaranteed that the given graph is connected. It is guaranteed that the sum of all m 
 values over all queries is <= 2*10^5.
 
 Output
-For each query print two lines. In the first line print k(1 <= n/2) — the number of chosen 
+For each query print two lines. In the first line print k(1 <= n/2) â€” the number of chosen 
 vertices. In the second line print k distinct integers c1, c2, ..., ck in any order, where ci 
 is the index of the i-th chosen vertex. It is guaranteed that the answer exists. If there are 
 multiple answers, you can print any.
