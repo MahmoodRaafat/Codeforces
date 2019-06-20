@@ -17,7 +17,7 @@ possible (spend the minimum number of days to do it). Your task is to find out t
 or say that it is impossible.
 
 Input
-The first line of the input contains two integers n and m (1 < n < 2*10^5, 1 <= m <= 10^9) — the 
+The first line of the input contains two integers n and m (1 < n < 2*10^5, 1 <= m <= 10^9) â€” the 
 number of cups of coffee and the number of pages in the coursework. The second line of the input 
 contains n integers a1, a2, ..., an (1 <= ai <= 10^9), where ai is the caffeine dosage of coffee 
 in the i-th cup.
