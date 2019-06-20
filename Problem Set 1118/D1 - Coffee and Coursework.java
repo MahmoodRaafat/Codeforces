@@ -1,7 +1,7 @@
 /*
 
 D1 - Coffee and Coursework
-
+ 
 Polycarp has to write a coursework. The coursework consists of m pages. Polycarp also has n cups 
 of coffee. The coffee in the i-th cup Polycarp has ai caffeine in it. Polycarp can drink some cups 
 of coffee (each one no more than once). He can drink cups in any order. Polycarp drinks each cup 
