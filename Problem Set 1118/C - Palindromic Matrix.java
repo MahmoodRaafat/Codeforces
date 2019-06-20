@@ -10,12 +10,12 @@ If there are multiple answers, print any. If there is no solution, print "NO".
 
 Input
 The first line contains one integer n (1 <= n <= 20). The second line contains n^2 integers a1, 
-a2, ..., an^2 (1 <= ai <= 1000) — the numbers to put into a matrix of n rows and n columns.
+a2, ..., an^2 (1 <= ai <= 1000) â€” the numbers to put into a matrix of n rows and n columns.
 
 Output
 If it is possible to put all of the n^2 numbers into a matrix of n rows and n columns so that 
 each number is used exactly once, each cell contains exactly one number and the resulting matrix 
-is palindromic, then print "YES". Then print n lines with n space-separated numbers — the 
+is palindromic, then print "YES". Then print n lines with n space-separated numbers â€” the 
 resulting matrix. If it's impossible to construct any matrix, then print "NO".
 
 ------------------------------------------------------------------------------------------------ */
