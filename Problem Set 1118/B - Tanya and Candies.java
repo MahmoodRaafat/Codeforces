@@ -11,12 +11,12 @@ Tanya eats in odd days. Note that at first, she will give the candy, after it sh
 the remaining candies one by one.
 
 Input
-The first line of the input contains one integer n (1 <= n <= 2*10^5) — the number of candies.
+The first line of the input contains one integer n (1 <= n <= 2*10^5) â€” the number of candies.
 The second line of the input contains n integers a1, a2, ..., an (1 <= ai <= 10^4), where ai 
 is the weight of the i-th candy.
 
 Output
-Print one integer — the number of such candies i (good candies) that if dad gets the i-th candy 
+Print one integer â€” the number of such candies i (good candies) that if dad gets the i-th candy 
 then the sum of weights of candies Tanya eats in even days will be equal to the sum of weights 
 of candies Tanya eats in odd days.
 
