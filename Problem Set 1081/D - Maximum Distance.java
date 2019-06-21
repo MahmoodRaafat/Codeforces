@@ -9,7 +9,7 @@ them. For each special vertex, find another special vertex which is farthest fro
 corresponding distance is maximum possible) and output the distance between them.
 
 Input
-The first line contains three integers n, m and k (2 <= k <= n <= 10^5, n-1 <= m <= 10^5) — the 
+The first line contains three integers n, m and k (2 <= k <= n <= 10^5, n-1 <= m <= 10^5) â€” the 
 number of vertices, the number of edges and the number of special vertices. The second line 
 contains k distinct integers x1, x2, ..., xk (1 <= xi <= n). Each of the following m lines 
 contains three integers u, v and w (1 <= u, v <= n, 1 <= w <= 10^9), denoting there is an edge 
@@ -70,7 +70,6 @@ public class D1081_MaximumDistance {
 		vs = new Vertex[n];
 		for (int i=0; i<n; i++)
 			vs[i] = new Vertex(i);
-		
 		
 		for (int i=0; i<k; i++)
 			vs[in.nextInt()-1].addSpecial(1);
