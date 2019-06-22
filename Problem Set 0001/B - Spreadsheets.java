@@ -3,8 +3,8 @@
 B - Spreadsheets 
 
 In the popular spreadsheets systems (for example, in Excel) the following numeration of columns 
-is used. The first column has number A, the second — number B, etc. till column 26 that is 
-marked by Z. Then there are two-letter numbers: column 27 has number AA, 28 — AB, column 52 is 
+is used. The first column has number A, the second â€” number B, etc. till column 26 that is 
+marked by Z. Then there are two-letter numbers: column 27 has number AA, 28 â€” AB, column 52 is 
 marked by AZ. After ZZ there follow three-letter numbers, etc. The rows are marked by integer 
 numbers starting with 1. The cell name is the concatenation of the column and the row numbers. 
 For example, BC23 is the name for the cell that is in column 55, row 23. Sometimes another 
