@@ -10,12 +10,12 @@ In one move the king can get to the square that has a common side or a common ve
 square the king is currently in (generally there are 8 different squares he can move to).
 
 Input
-The first line contains the chessboard coordinates of square s, the second line — of square t.
+The first line contains the chessboard coordinates of square s, the second line â€” of square t.
 Chessboard coordinates consist of two characters, the first one is a lowercase Latin letter 
 (from a to h), the second one is a digit from 1 to 8.
 
 Output
-In the first line print n — minimum number of the king's moves. Then in n lines print the moves 
+In the first line print n â€” minimum number of the king's moves. Then in n lines print the moves 
 themselves. Each move is described with one of the 8: L, R, U, D, LU, LD, RU or RD.
 L, R, U, D stand respectively for moves left, right, up and down (according to the picture), and 
 2-letter combinations stand for diagonal moves. If the answer is not unique, print any of them. 
