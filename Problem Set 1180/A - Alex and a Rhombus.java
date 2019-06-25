@@ -9,11 +9,11 @@ rhombus adding all cells which have a common side with it to it. Alex asks you t
 compute the number of cells in a n-th order rhombus.
 
 Input
-The first and only input line contains integer n (1 <= n <= 100) — order of a rhombus 
+The first and only input line contains integer n (1 <= n <= 100) â€” order of a rhombus 
 whose numbers of cells should be computed.
 
 Output
-Print exactly one integer — the number of cells in a n-th order rhombus.
+Print exactly one integer â€” the number of cells in a n-th order rhombus.
 
 ------------------------------------------------------------------------------------*/
 
