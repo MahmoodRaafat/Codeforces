@@ -24,6 +24,7 @@ Latin letters with the length from 1 to 32, and score is an integer number betwe
 
 Output
 Print the name of the winner.
+
 ------------------------------------------------------------------------------------*/
 
 import java.io.*;
