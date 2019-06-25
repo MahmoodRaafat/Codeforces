@@ -2,7 +2,7 @@
 
 B - Nick and Array
 
-ick had received an awesome array of integers a=[a1,a2,…,an] as a gift for his 5th 
+ick had received an awesome array of integers a=[a1,a2,â€¦,an] as a gift for his 5th 
 birthday from his mother. He was already going to explore its various properties 
 but after unpacking he was disappointed a lot because the product a1*a2*...an of 
 its elements seemed to him not large enough. He was ready to throw out the array, 
@@ -19,12 +19,12 @@ the maximal possible product of elements a1*a2*...an which can be received using
 only this operation in some order. If there are multiple answers, print any of them.
 
 Input
-The first line contains integer n (1 <= n <= 10^5) — number of integers in the 
-array. The second line contains n integers a1, a2, ..., an (-10^6 <= ai <= 10^6) — 
+The first line contains integer n (1 <= n <= 10^5) â€” number of integers in the 
+array. The second line contains n integers a1, a2, ..., an (-10^6 <= ai <= 10^6) â€” 
 elements of the array
 
 Output
-Print n numbers — elements of the array with the maximal possible product of elements 
+Print n numbers â€” elements of the array with the maximal possible product of elements 
 which can be received using only this operation in some order from the given array.
 
 ------------------------------------------------------------------------------------*/
