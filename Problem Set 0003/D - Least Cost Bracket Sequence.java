@@ -17,7 +17,7 @@ The first line contains a non-empty pattern of even length, consisting of charac
 ")" and "?". Its length doesn't exceed 5*10^4. Then there follow m lines, where m is the 
 number of characters "?" in the pattern. Each line contains two integer numbers ai and bi 
 (1 <= ai, bi <= 10^6), where ai is the cost of replacing the i-th character "?" with an 
-opening bracket, and bi — with a closing one.
+opening bracket, and bi â€” with a closing one.
 
 Output
 Print the cost of the optimal regular bracket sequence in the first line, and the required 
@@ -28,7 +28,7 @@ any of them.
 
 import java.io.*;
 import java.util.*;
-public class D0003_LeastCostBacketSequence {
+public class D0003_LeastCostBracketSequence {
 	
 	static class Bracket implements Comparable<Bracket> {
 		int index;
