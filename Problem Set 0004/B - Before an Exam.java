@@ -15,14 +15,14 @@ time the sum total of all schedulei should equal to sumTime.
 
 Input
 The first input line contains two integer numbers d, sumTime (1 <= d <= 30, 0 <= sumTime <= 240) 
-— the amount of days, during which Peter studied, and the total amount of hours, spent on 
+â€” the amount of days, during which Peter studied, and the total amount of hours, spent on 
 preparation. Each of the following d lines contains two integer numbers minTimei, maxTimei 
-(0 <= minTimei <= maxTimei <= 8), separated by a space — minimum and maximum amount of hours that 
+(0 <= minTimei <= maxTimei <= 8), separated by a space â€” minimum and maximum amount of hours that 
 Peter could spent in the i-th day.
 
 Output
 In the first line print YES, and in the second line print d numbers (separated by a space), each 
-of the numbers — amount of hours, spent by Peter on preparation in the corresponding day, if he 
+of the numbers â€” amount of hours, spent by Peter on preparation in the corresponding day, if he 
 followed his parents' instructions; or print NO in the unique line. If there are many solutions, 
 print any of them.
 
