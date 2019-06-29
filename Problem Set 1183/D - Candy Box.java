@@ -12,14 +12,14 @@ the single gift you can prepare using the candies you have. You have to answer q
 queries.
 
 Input
-The first line of the input contains one integer q (1 <= q <= 2*10^5) — the number of queries. 
+The first line of the input contains one integer q (1 <= q <= 2*10^5) â€” the number of queries. 
 Each query is represented by two lines. The first line of each query contains one integer n 
-(1 <= n <= 2*10^5) — the number of candies. The second line of each query contains n integers 
+(1 <= n <= 2*10^5) â€” the number of candies. The second line of each query contains n integers 
 a1, a2, ..., an (1 <= ai <= n), where ai is the type of the i-th candy in the box. It is 
 guaranteed that the sum of n over all queries does not exceed 2*10^5.
 
 Output
-For each query print one integer — the maximum possible size of the single gift you can compose 
+For each query print one integer â€” the maximum possible size of the single gift you can compose 
 using candies you got in this query with the restriction described in the problem statement.
 
 ----------------------------------------------------------------------------------------------*/
