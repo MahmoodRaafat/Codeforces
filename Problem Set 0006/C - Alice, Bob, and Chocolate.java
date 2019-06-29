@@ -3,7 +3,7 @@
 C - Alice, Bob, and Chocolate
 
 Alice and Bob like games. And now they are ready to start a new game. They have placed n chocolate 
-bars in a line. Alice starts to eat chocolate bars one by one from left to right, and Bob — from 
+bars in a line. Alice starts to eat chocolate bars one by one from left to right, and Bob â€” from 
 right to left. For each chocolate bar the time, needed for the player to consume it, is known 
 (Alice and Bob eat them with equal speed). When the player consumes a chocolate bar, he immediately 
 starts with another. It is not allowed to eat two chocolate bars at the same time, to leave the bar 
@@ -11,7 +11,7 @@ unfinished and to make pauses. If both players start to eat the same bar simulta
 it to Alice as a true gentleman. How many bars each of the players will consume?
 
 Input
-The first line contains one integer n (1 <= n <= 10^5) — the amount of bars on the table. The second 
+The first line contains one integer n (1 <= n <= 10^5) â€” the amount of bars on the table. The second 
 line contains a sequence t1, t2, ..., tn (1 <= ti <= 1000), where ti is the time (in seconds) needed 
 to consume the i-th bar (in the order from left to right).
 
@@ -44,9 +44,9 @@ public class C0006_AliceBobAndChocolate {
 		int eatenByAlice = 0, eatenByBob = 0;
 		for (int i=0; i<n; i++) {
 			if (alice[i] <= bob[i])
-				eatenByAlice++;
+				++eatenByAlice;
 			else
-				eatenByBob++;
+				++eatenByBob;
 		}
 		
 		System.out.println(eatenByAlice + " " + eatenByBob);
