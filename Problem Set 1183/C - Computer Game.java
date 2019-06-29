@@ -21,9 +21,9 @@ the first type turn) or report that Vova cannot complete the game. You have to a
 independent queries.
 
 Input
-The first line of the input contains one integer q (1 <= q <= 10^5) — the number of 
+The first line of the input contains one integer q (1 <= q <= 10^5) â€” the number of 
 queries. Each query is presented by a single line. The only line of the query contains 
-four integers k, n, a and b (1 <= k, n <= 10^9, 1 <= b < a <= 10^9) — the initial charge 
+four integers k, n, a and b (1 <= k, n <= 10^9, 1 <= b < a <= 10^9) â€” the initial charge 
 of Vova's laptop battery, the number of turns in the game and values a and b, 
 correspondingly.
 
