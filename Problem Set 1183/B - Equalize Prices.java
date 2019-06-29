@@ -16,9 +16,9 @@ it is impossible to find such price B. Note that the chosen price B should be an
 You should answer q independent queries.
 
 Input
-The first line of the input contains one integer q (1 <= q <= 100) — the number of queries. 
+The first line of the input contains one integer q (1 <= q <= 100) â€” the number of queries. 
 Each query is presented by two lines. The first line of the query contains two integers n 
-and k (1 <= n <= 100, 1 <= k <= 10^8) — the number of products and the value k. The second 
+and k (1 <= n <= 100, 1 <= k <= 10^8) â€” the number of products and the value k. The second 
 line of the query contains n integers a1, a2, ..., an (1 <= ai <= 10^8), where ai is the 
 price of the i-th product.
 
