@@ -13,7 +13,7 @@ degenerate triangle. It can be so, that it is impossible to construct a degenera
 Johnny is very lazy, he does not want to consider such a big amount of cases, he asks you to help him.
 
 Input
-The first line of the input contains four space-separated positive integer numbers not exceeding 100 — 
+The first line of the input contains four space-separated positive integer numbers not exceeding 100 â€” 
 lengths of the sticks.
 
 Output
@@ -27,6 +27,7 @@ to break the sticks or use their partial length.
 import java.io.*;
 import java.util.*;
 public class A0006_Triangle {
+	
 	public static void main(String[] args) {
 		InputReader in = new InputReader();
 		int[] sticks = new int[4];
